@@ -53,7 +53,6 @@ class Register : AppCompatActivity() {
                 sendData()
             }
         })
-
     }
 
     private fun sendData(){
