@@ -134,5 +134,4 @@ class Register : AppCompatActivity() {
         super.onDestroy()
         hideAlertDialog()
     }
-
 }
