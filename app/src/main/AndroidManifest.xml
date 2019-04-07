@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.apriantrimulyana.mitramas">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="Aprian"
+            android:theme="@style/AppTheme.NoActionBar.splash"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SelectMenu"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="Select"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Home"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="Home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Login"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="Login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Register"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="Register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AddActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="Add Activity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
