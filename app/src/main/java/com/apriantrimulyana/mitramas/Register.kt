@@ -55,7 +55,6 @@ class Register : AppCompatActivity() {
         })
     }
 
-
     private fun sendData(){
         hideAlertDialog()
         showAlertDialogLoading(this@Register, "Please Wait ...")
